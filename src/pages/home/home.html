@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>home</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <div class="quote-container">
+    <img [class.shaking]="shaking" [src]="quoteImage || placeholder"/>
+    <i>Shake me!</i>
+  </div>
+</ion-content>
